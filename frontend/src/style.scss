@@ -1,0 +1,19 @@
+@use "./styles/button.scss";
+
+*{
+    margin : 0%;
+    padding : 0% ;
+    box-sizing : border-box;
+}
+html,body,
+#root{
+    height : 100%;
+    background-color : #1e1e1e ;
+    color : whitesmoke;
+    font-family : system-ui , sans-serif;
+}
+
+.auth-grid-bg {
+  background-image: radial-gradient(#c6c6cd 0.5px, transparent 0.5px);
+  background-size: 24px 24px;
+}

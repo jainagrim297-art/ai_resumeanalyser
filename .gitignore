@@ -1,0 +1,35 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Testing
+coverage/
+
+# Production
+build/
+dist/
+
+# Environment Variables (CRITICAL: Do not upload secrets)
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Misc
+.DS_Store
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Python / AI specific (if any)
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# Temporary or Generated files
+report.pdf
+*.pdf
+*.docx
